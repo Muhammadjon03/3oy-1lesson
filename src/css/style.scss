@@ -1,0 +1,556 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1520px ;
+    margin: 0 auto;
+    width: 90%;
+}
+header{
+    background: #FEDDD0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.navbar-chap{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.navbar-chap ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.navbar-chap ul li a{
+    color: black;
+}
+.navbar-ung{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar-ung button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    background: #FD492A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 30px;
+}
+.navbar-ung button:hover{
+    border: 1px solid #FD492A;
+    background: #fd4a2a00;
+    color: #FD492A;
+}
+.navbar-ung i{
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.navbar-ung a{
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 100px 0 50px 0;
+}
+.hero-music{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.hero-main h1{
+    font-weight: 900;
+    font-size: 64px;
+    width: 500px;
+    height: 250px;
+    margin-top: 25px;
+}
+.hero-main a{
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    background: #FD492A;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.hero-main a:hover{
+    border: 1px solid #FD492A;
+    color: #FD492A;
+    background: #fd4a2a00;
+}
+.hero-item{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 100px 0px 100px 0;
+}
+.hero-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-items h2{
+    font-weight: 900;
+    font-size: 46px;
+}
+.hero-items p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 140px;
+}
+.section-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 180px 0px;
+    gap: 135px;
+}
+.section-1-fon{
+    width: 705px;
+    height: 560px;
+}
+.section-1-ung h4{
+    font-weight: 700;
+    font-size: 16px;
+    width: 115px;
+    height: 25px;
+    text-transform: uppercase;
+}
+.section-1-ung h2{
+    font-weight: 900;
+    font-size: 46px;
+    width: 300px;
+    height: 60px;
+}
+.section-1-ung-item{
+    padding-top: 40px;
+}
+.section-1-ung-items{
+    display: flex;
+}
+.section-1-ung-items img{
+    width: 16px;
+    height: 15px;
+}
+.section-1-ung-items p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 400px;
+    height: 50px;
+}
+.section-1-ung-item a{
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    background: #FD492A;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 60px;
+    display: inline-block;
+}
+.section-1-ung-item a:hover{
+    border: 1px solid #FD492A;
+    color: #FD492A;
+    background: #fd4a2a00;
+}
+
+.section-2-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.section-2-head-chap h4{
+    font-weight: 700;
+    font-size: 16px;
+    width: 153px;
+    height: 25px;
+}
+.section-2-head-chap h2{
+    font-weight: 900;
+    font-size: 46px;
+    width: 367px;
+    height: 60px;
+    padding-top: 10px;
+}
+.section-2-head a{
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    background: #FD492A;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 60px;
+    display: inline-block;
+}
+.section-2-head a:hover{
+    border: 1px solid #FD492A;
+    color: #FD492A;
+    background: #fd4a2a00;
+}
+.section-2-item{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.section-2-items{
+    display: flex;
+    gap: 32px;
+    border: 1px solid #787a805f;
+   
+}
+.section-2-items:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    transition: 0.3s;
+}
+.section-2-items-info{
+    padding: 40px;
+}
+.section-2-items-info h4{
+    font-weight: 400;
+    font-size: 14px;
+    width: 85px;
+    border: 1px solid #03cea500 ;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.section-2-items-info h2{
+    font-weight: 700;
+    font-size: 20px;
+    width: 322px;
+    height: 60px;
+    padding: 20px 0px;
+}
+.section-2-items-info-text{
+    display: flex;
+    gap: 8px;
+    padding-top: 20px;
+    align-items: center;
+}
+.section-2-items-info-text h3{
+    font-weight: 700;
+    font-size: 18px;
+    width: 42px;
+    height: 27px;
+    color: #FF4242;
+}
+.section-2-items-info-text p{
+    font-weight: 400;
+    font-size: 18px;
+    width: 116px;
+    height: 27px;
+    color: #787A80;
+}
+@media screen and (max-width: 1420px){
+    .container{
+        max-width: 1420px;
+    }
+    .navbar{
+        padding-top: 35px;
+    }
+    .navbar-chap{
+        gap: 55px;
+    }
+    .navbar-chap ul{
+        font-size: 15px;
+        gap: 35px;  
+    }
+    .navbar-ung{
+        gap: 35px;
+    }
+    .navbar-ung button{
+        font-size: 16px;
+        line-height: 45px;
+        padding: 0px 25px;
+    }
+    .navbar-ung i{
+        font-size: 14px;
+    }
+    .navbar-ung a{
+        font-size: 14px;
+    }
+    .hero{
+        padding: 90px 0 45px 0;
+    }
+    .hero-main h1{
+        font-size: 60px;
+        width: 500px;
+        height: 250px;
+        margin-top: 25px;
+    }
+    .hero-main a{
+        padding: 20px 40px;
+        font-weight: 700;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .hero-item{
+        gap: 50px;
+        padding: 90px 0px 90px 0;
+    }
+    .hero-items{
+        gap: 20px;
+    }
+    .hero-items h2{
+        font-size: 42px;
+    }
+    .hero-items p{
+        font-size: 14px;
+        width: 130px;
+    }
+    .section-1{
+        padding: 170px 0px;
+        gap: 130px;
+    }
+    .section-1-fon{
+        width: 700px;
+        height: 550px;
+    }
+    .section-1-ung h4{
+        font-size: 14px;
+        width: 110px;
+    }
+    .section-1-ung h2{
+        font-size: 44px;
+        width: 300px;
+    }
+    .section-1-ung-item{
+        padding-top: 35px;
+    }
+    .section-1-ung-items img{
+        width: 14px;
+        height: 14px;
+    }
+    .section-1-ung-items p{
+        font-size: 14px;
+        width: 380px;
+        height: 45px;
+    }
+    .section-1-ung-item a{
+        padding: 15px 35px;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 55px;
+    }
+    .section-2-head{
+        padding-bottom: 55px;
+    }
+    .section-2-head-chap h4{
+        font-size: 14px;
+        width: 150px;
+        height: 22px;
+    }
+    .section-2-head-chap h2{
+        font-size: 44px;
+        width: 360px;
+        padding-top: 10px;
+    }
+    .section-2-head a{
+        padding: 20px 40px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .section-2-item{
+        gap: 26px;
+        padding-bottom: 90px;
+    }
+    .section-2-items{
+        gap: 30px;
+    }
+    .section-2-items-info{
+        padding: 35px;
+    }
+    .section-2-items-info h4{
+        font-size: 13px;
+        width: 80px;
+        padding: 5px 10px;
+    }
+    .section-2-items-info h2{
+        font-size: 18px;
+        width: 318px;
+        padding: 20px 0px;
+    }
+    .section-2-items-info-text{
+        gap: 8px;
+        padding-top: 20px;
+    }
+    .section-2-items-info-text h3{
+        font-size: 18px;
+        width: 40px;
+    }
+    .section-2-items-info-text p{
+        font-weight: 380px;
+        font-size: 16px;
+        width: 116px;
+    }
+}
+@media screen and (max-width: 1240px){
+    .container{
+        max-width: 1240px;
+    }
+    .navbar{
+        padding-top: 30px;
+    }
+    .navbar-chap{
+        gap: 50px;
+    }
+    .navbar-chap ul{
+        font-size: 13px;
+        gap: 30px;  
+    }
+    .navbar-ung{
+        gap: 30px;
+    }
+    .navbar-ung button{
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0px 20px;
+    }
+    .navbar-ung i{
+        font-size: 13px;
+    }
+    .navbar-ung a{
+        font-size: 13px;
+    }
+    .hero{
+        padding: 85px 0 40px 0;
+    }
+    .hero-main h1{
+        font-size: 55px;
+        width: 470px;
+        height: 230px;
+        margin-top: 23px;
+    }
+    .hero-main a{
+        padding: 18px 35px;
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 35px;
+    }
+    .hero-item{
+        gap: 45px;
+        padding: 85px 0px 85px 0;
+    }
+    .hero-items{
+        gap: 13px;
+    }
+    .hero-items h2{
+        font-size: 40px;
+    }
+    .hero-items p{
+        font-size: 13px;
+        width: 125px;
+    }
+    .section-1{
+        padding: 160px 0px;
+        gap: 120px;
+    }
+    .section-1-fon{
+        width: 700px;
+        height: 500px;
+    }
+    .section-1-ung h4{
+        font-size: 13px;
+        width: 100px;
+    }
+    .section-1-ung h2{
+        font-size: 40px;
+        width: 250px;
+    }
+    .section-1-ung-item{
+        padding-top: 30px;
+    }
+    .section-1-ung-items img{
+        width: 13px;
+        height: 13px;
+    }
+    .section-1-ung-items p{
+        font-size: 13px;
+        width: 370px;
+        height: 40px;
+    }
+    .section-1-ung-item a{
+        padding: 13px 30px;
+        font-weight: 650;
+        font-size: 13px;
+        margin-top: 50px;
+    }
+    .section-2-head{
+        padding-bottom: 50px;
+    }
+    .section-2-head-chap h4{
+        font-size: 13px;
+        width: 140px;
+        height: 20px;
+    }
+    .section-2-head-chap h2{
+        font-size: 40px;
+        width: 350px;
+        padding-top: 10px;
+    }
+    .section-2-head a{
+        padding: 20px 40px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .section-2-item{
+        gap: 24px;
+        padding-bottom: 85px;
+    }
+    .section-2-items{
+        gap: 27px;
+    }
+    .section-2-items-info{
+        padding: 30px;
+    }
+    .section-2-items-info h4{
+        font-size: 13px;
+        width: 75px;
+        padding: 5px 10px;
+    }
+    .section-2-items-info h2{
+        font-size: 18px;
+        width: 312px;
+        padding: 20px 0px;
+    }
+    .section-2-items-info-text{
+        gap: 8px;
+        padding-top: 20px;
+    }
+    .section-2-items-info-text h3{
+        font-size: 18px;
+        width: 40px;
+    }
+    .section-2-items-info-text p{
+        font-weight: 380px;
+        font-size: 16px;
+        width: 116px;
+    }
+}
