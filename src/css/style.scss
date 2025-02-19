@@ -454,6 +454,10 @@ header{
         font-size: 14px;
         margin-top: 35px;
     }
+    .hero-main{
+        width: 450px;
+        height: 400px;
+    }
     .hero-item{
         gap: 45px;
         padding: 85px 0px 85px 0;
@@ -553,4 +557,309 @@ header{
         font-size: 16px;
         width: 116px;
     }
+
 }
+@media screen and (max-width: 1060px){
+    .container{
+        max-width: 1060px;
+    }
+    .navbar{
+        padding-top: 30px;
+    }
+    .navbar-chap{
+        gap: 40px;
+    }
+    .navbar-chap ul{
+        font-size: 13px;
+        gap: 30px;  
+    }
+    .navbar-ung{
+        gap: 30px;
+    }
+    .navbar-ung button{
+        font-size: 14px;
+        line-height: 30px;
+        padding: 0px 20px;
+    }
+    .navbar-ung i{
+        font-size: 13px;
+    }
+    .navbar-ung a{
+        font-size: 13px;
+    }
+    .hero{
+        padding: 75px 0 40px 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hero-main h1{
+        font-size: 55px;
+        width: 470px;
+        height: 230px;
+        margin-top: 23px;
+    }
+    .hero-main a{
+        padding: 18px 35px;
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 35px;
+    }
+    .hero-main{
+        width: 450px;
+        height: 400px;
+    }
+    .hero-item{
+        gap: 30px;
+        padding: 85px 0px 85px 0;
+    }
+    .hero-items{
+        gap: 13px;
+    }
+    .hero-items h2{
+        font-size: 40px;
+    }
+    .hero-items p{
+        font-size: 13px;
+        width: 125px;
+    }
+    .section-1{
+        padding: 80px 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section-1-fon{
+        width: 600px;
+        height: 500px;
+    }
+    .section-1-ung h4{
+        font-size: 10px;
+        width: 100px;
+    }
+    .section-1-ung h2{
+        font-size: 35px;
+        width: 200px;
+    }
+    .section-1-ung-item{
+        padding-top: 30px;
+    }
+    .section-1-ung-items img{
+        width: 13px;
+        height: 13px;
+    }
+    .section-1-ung-items p{
+        font-size: 13px;
+        width: 370px;
+        height: 40px;
+    }
+    .section-1-ung-item a{
+        padding: 13px 30px;
+        font-weight: 650;
+        font-size: 13px;
+        margin-top: 50px;
+    }
+    .section-2-head{
+        padding-bottom: 50px;
+    }
+    .section-2-head-chap h4{
+        font-size: 13px;
+        width: 140px;
+        height: 20px;
+    }
+    .section-2-head-chap h2{
+        font-size: 40px;
+        width: 350px;
+        padding-top: 10px;
+    }
+    .section-2-head a{
+        padding: 20px 40px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .section-2-item{
+        gap: 24px;
+        padding-bottom: 85px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section-2-items{
+        gap: 27px;
+    }
+    .section-2-items-info{
+        padding: 30px;
+    }
+    .section-2-items-info h4{
+        font-size: 13px;
+        width: 75px;
+        padding: 5px 10px;
+    }
+    .section-2-items-info h2{
+        font-size: 18px;
+        width: 312px;
+        padding: 20px 0px;
+    }
+    .section-2-items-info-text{
+        gap: 8px;
+        padding-top: 20px;
+    }
+    .section-2-items-info-text h3{
+        font-size: 18px;
+        width: 40px;
+    }
+    .section-2-items-info-text p{
+        font-weight: 380px;
+        font-size: 16px;
+        width: 116px;
+    }
+
+}
+@media screen and (max-width: 875px){
+    .container{
+        max-width: 875px;
+    }
+    .navbar{
+        padding-top: 30px;
+    }
+    .navbar-chap{
+        gap: 40px;
+    }
+    .navbar-chap ul{
+        display: none;  
+    }
+    .navbar-ung{
+        gap: 20px;
+    }
+    .navbar-ung button{
+        display: none;
+    }
+    .navbar-ung i{
+        font-size: 10px;
+    }
+    .navbar-ung a{
+        font-size: 10px;
+    }
+    .hero{
+        padding: 60px 0 35px 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hero-main h1{
+        font-size: 50px;
+        width: 450px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .hero-main a{
+        padding: 15px 30px;
+        font-weight: 550;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    .hero-main{
+        width: 400px;
+        height: 350px;
+    }
+    .hero-item{
+        gap: 5px;
+        padding: 70px 0px 80px 0;
+    }
+    .hero-items{
+        gap: 10px;
+    }
+    .hero-items h2{
+        font-size: 35px;
+    }
+    .hero-items p{
+        font-size: 10px;
+        width: 115px;
+    }
+    .section-1{
+        padding: 70px 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section-1-fon{
+        width: 500px;
+        height: 400px;
+    }
+    .section-1-ung h4{
+        font-size: 10px;
+        width: 90px;
+    }
+    .section-1-ung h2{
+        font-size: 30px;
+        width: 150px;
+    }
+    .section-1-ung-item{
+        padding-top: 25px;
+    }
+    .section-1-ung-items img{
+        width: 10px;
+        height: 10px;
+    }
+    .section-1-ung-items p{
+        font-size: 10px;
+        width: 350px;
+        height: 35px;
+    }
+    .section-1-ung-item a{
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 10px;
+        margin-top: 40px;
+    }
+    .section-2-head{
+        padding-bottom: 40px;
+    }
+    .section-2-head-chap h4{
+        font-size: 10px;
+        width: 120px;
+        height: 20px;
+    }
+    .section-2-head-chap h2{
+        font-size: 30px;
+        width: 300px;
+        padding-top: 10px;
+    }
+    .section-2-head a{
+        padding: 20px 40px;
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .section-2-item{
+        gap: 20px;
+        padding-bottom: 80px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section-2-items{
+        gap: 25px;
+    }
+    .section-2-items-info{
+        padding: 25px;
+    }
+    .section-2-items-info h4{
+        font-size: 10px;
+        width: 70px;
+        padding: 5px 10px;
+    }
+    .section-2-items-info h2{
+        font-size: 15px;
+        width: 300px;
+        padding: 20px 0px;
+    }
+    .section-2-items-info-text{
+        gap: 8px;
+        padding-top: 20px;
+    }
+    .section-2-items-info-text h3{
+        font-size: 18px;
+        width: 40px;
+    }
+    .section-2-items-info-text p{
+        font-weight: 380px;
+        font-size: 16px;
+        width: 116px;
+    }
+
+}
+
